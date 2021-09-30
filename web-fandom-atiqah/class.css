@@ -1,0 +1,143 @@
+.header{  
+	background-color:  black;
+	padding: 10px;
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+}
+
+.produk{
+	background-color:  black;
+	padding: 5px;
+	text-align: center;
+	color: white;
+}
+
+.divisi{
+	background-color:  black;
+	padding: 5px;
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: grey;
+	text-align: center;
+}
+
+.topnav a {
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 24px;
+}
+
+.topnav a:hover {
+	background-color: white;
+	color: yellow;
+	color: black;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.column {
+	float: left;
+	width: 30%;
+	padding: 15px;
+	text-align: justify;
+}
+
+.column2{
+	float: left;
+	width: 100%;
+	padding: 15px;
+	text-align: center;
+}
+
+.column3{
+	float: left;
+	width: 64%;
+	padding: 15px;
+	text-align: justify;
+}
+
+.column4 {
+	float: left;
+	width: 47%;
+	padding: 15px;
+	text-align: justify;
+}
+
+.footer{
+	background-color: black;
+	padding: 5px 5px 5px 5px;
+	text-align: center;
+	color: white;
+}
+
+.fixed-nav{
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%
+}
+
+.img-card{
+	width: 1200px;
+	height: 550px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom-right-radius: 20 px;
+	border-top-left-radius: 20 px;
+	border-color: white;
+	border-width: 3px;
+	border-style: solid;
+}
+
+.banner{
+	background-color: crimson;
+	padding: 10px;
+	margin-top: 150px;
+}
+
+.banner2{
+	border-bottom-right-radius: 20 px;
+	border-top-left-radius: 20 px;
+	border-bottom-left-radius-radius: 20 px;
+	border-top-right-radius: 20 px;
+	padding: 10px;
+	margin-top: 150px;
+}
+
+.tengah{
+	text-align: center;
+}
+
+@media screen and (max-width: 800px){
+	.column, .column2, .column3{
+		width: 100%;
+		padding: 10px;
+	}
+}
+
+@media screen and (max-width: 400px){
+	.top-naf{
+		float: 0%;
+		width: 100px;
+	}
+	.img-card{
+	width: 300px;
+	height: 90px;
+}
+
+	.banner{
+		margin-top: 272px;
+	}
+}
